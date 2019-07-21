@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/leon/go/bin:/Users/leon/flutter/bin:/Users/leon/go/bin:/Users/leon/flutter/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/leon/Applications/booksapi/package.json: Unexpected token } in JSON at position 149
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+
+npm manifest: 
+  {
+    "name": "booksapi",
+    "version": "1.0.0",
+    "description": "Books API",
+    "main": "index.js",
+    "scripts": {
+      "dev": "node ./build/dev.js",
+    },
+    "engines": {
+      "node": ">= 6.0.0",
+      "npm": ">= 3.0.0"
+    },
+    "devDependencies": {
+      "shelljs": "^0.8.2"
+    },
+    "keywords": [
+      "books"
+    ],
+    "author": "Leon Ling",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

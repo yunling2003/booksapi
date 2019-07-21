@@ -1,0 +1,8 @@
+logSql:                       true
+dbdriver:                     postgres
+connectionstring:             user=youxintea password=102030 dbname=bookstore host=localhost port=5432 sslmode=disable
+port:                         9090
+JwtSignKey:                   xxxxxxxx_debug
+token.expire.minutes:         120
+wechat.app.appid:             wxd7ad53eceb6e4894
+wechat.app.secret:            da24e6119066f91d92d0dcacfa394a16

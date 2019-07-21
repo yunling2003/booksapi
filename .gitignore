@@ -1,0 +1,10 @@
+tmp/
+dist/
+src/runner-build*.*
+debug
+debug.test
+.vscode/
+src.exe
+src/init/*.exe
+main.exe
+node_modules/

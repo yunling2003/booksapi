@@ -1,0 +1,20 @@
+{
+  "name": "booksapi",
+  "version": "1.0.0",
+  "description": "Books API",  
+  "scripts": {
+    "dev": "node ./build/dev.js"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.2"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Leon Ling",
+  "license": "MIT"
+}
