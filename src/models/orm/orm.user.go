@@ -12,6 +12,7 @@ type User struct {
 	NickName          string `json:"nickName,omitempty"`
 	AvatarURL         string `json:"avatarUrl,omitempty"`
 	IsMobileValidated bool   `json:"isMobileValidated,omitempty" sql:"default:false"`
+	Credit            uint64 `json:"credit,omitempty"`
 	WechatOpenID      string `json:"wechatOpenID,omitempty"`
 	WechatUnionID     string `json:"wechatUnionID,omitempty"`
 	WechatSessionKey  string `json:"-"`
